@@ -1,0 +1,6 @@
+type Student{
+   name: String
+   email: String
+    dateDeNaissance : String
+
+}

@@ -1,0 +1,6 @@
+type Query {
+    getStudentsByName(name: String): [Student]
+    getStudentsByEmail(email: String): [Student]
+    getStudentsByDateDeNaissance(dateDeNaissance: String): [Student]
+    getStudentsByNameAndEmailAndDateDeNaissance(name: String, email: String, dateDeNaissance: String): [Student]
+}
